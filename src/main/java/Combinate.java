@@ -31,9 +31,9 @@ public class Combinate {
         if(digits.length() == 1) {
             return map.get(digits.charAt(0) - '0');
         }
-        List<String> intermediate = letterCombinations(digits.substring(1, digits.length()));
+        List<String> strings = letterCombinations(digits.substring(1, digits.length()));
         for(String first : map.get(digits.charAt(0) - '0')) {
-            for(String rest : intermediate) {
+            for(String rest : strings) {
                 result.add(first + rest);
             }
         }
