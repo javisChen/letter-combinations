@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 /*
  * @author JavisChen
@@ -35,6 +36,7 @@ public class Combinate {
         List<String> list = map.get(inputs.charAt(0) - '0');
         List<String> returnList = new ArrayList<>();
         list.forEach(item -> letters.forEach(letter -> returnList.add(item + letter)));
+        System.out.println(returnList.stream().collect(Collectors.joining(" ")));
         return returnList;
     }
 }
