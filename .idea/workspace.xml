@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bfd1ce-4b0e-40b9-95ea-a0a4e059cfc3" name="Default" comment="" />
+    <list default="true" id="e2bfd1ce-4b0e-40b9-95ea-a0a4e059cfc3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Combinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Combinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CombinateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CombinateTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +20,8 @@
       <file leaf-file-name="CombinateTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CombinateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -25,8 +29,17 @@
       <file leaf-file-name="Combinate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Combinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="194">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="4420" column="31" lean-forward="true" selection-start-line="4420" selection-start-column="31" selection-end-line="4420" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,9 +71,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/Combinate2.java" />
         <option value="$PROJECT_DIR$/src/test/java/CombinateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Combinate.java" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -119,6 +133,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letter-combinations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letter-combinations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Combinate" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="letter-combinations" type="b2602c69:ProjectViewProjectNode" />
@@ -190,11 +212,6 @@
       <module name="letter-combinations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MainTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTest2" />
-      <module name="letter-combinations" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -223,6 +240,23 @@
       <option name="MAIN_CLASS_NAME" value="CombinateTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CombinÎateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letter-combinations" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CombinÎateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -287,18 +321,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CombinateTest" />
-      <item itemvalue="Application.MainTest2" />
-      <item itemvalue="Application.Combinate" />
       <item itemvalue="JUnit.CombinateTest.test" />
       <item itemvalue="JUnit.CombinateTest" />
+      <item itemvalue="JUnit.CombinÎateTest" />
+      <item itemvalue="Application.Combinate2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CombinateTest.test" />
+        <item itemvalue="Application.Combinate2" />
         <item itemvalue="JUnit.CombinateTest" />
+        <item itemvalue="JUnit.CombinÎateTest" />
         <item itemvalue="Application.CombinateTest" />
-        <item itemvalue="Application.Combinate" />
-        <item itemvalue="Application.MainTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -313,29 +347,11 @@
       <option name="presentableId" value="Default" />
       <updated>1559181771501</updated>
       <workItem from="1559181773926" duration="17821000" />
-      <workItem from="1559223097896" duration="3748000" />
+      <workItem from="1559223097896" duration="7017000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CombinateTest_test - 2019.05.30 at 22h 09m 59s.xml">
-      <configuration name="CombinateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinateTest_test - 2019.05.30 at 22h 10m 04s.xml">
-      <configuration name="CombinateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinateTest_test - 2019.05.30 at 22h 32m 33s.xml">
-      <configuration name="CombinateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinateTest_test - 2019.05.30 at 22h 33m 26s.xml">
-      <configuration name="CombinateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinateTest_test - 2019.05.30 at 22h 33m 28s.xml">
-      <configuration name="CombinateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinateTest_test - 2019.05.30 at 22h 36m 18s.xml">
-      <configuration name="CombinateTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CombinateTest_test - 2019.05.30 at 22h 37m 12s.xml">
       <configuration name="CombinateTest.test" configurationId="JUnit" />
     </history-entry>
@@ -348,9 +364,27 @@
     <history-entry file="CombinateTest_test - 2019.05.30 at 22h 37m 43s.xml">
       <configuration name="CombinateTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CombinateTest - 2019.05.31 at 00h 00m 11s.xml">
+      <configuration name="CombinateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CombinateTest_test - 2019.05.31 at 00h 20m 38s.xml">
+      <configuration name="CombinateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CombinateTest_test - 2019.05.31 at 00h 21m 26s.xml">
+      <configuration name="CombinateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CombinateTest - 2019.05.31 at 00h 22m 26s.xml">
+      <configuration name="CombinateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CombinateTest_test - 2019.05.31 at 01h 00m 52s.xml">
+      <configuration name="CombinateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CombinateTest_test - 2019.05.31 at 01h 01m 47s.xml">
+      <configuration name="CombinateTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21569000" />
+    <option name="totallyTimeSpent" value="24838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -374,11 +408,11 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32806325" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29776022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29776022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32938075" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32938075" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25431034" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -399,15 +433,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CombinateTest.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -484,20 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="4419" column="36" selection-start-line="4419" selection-start-column="36" selection-end-line="4419" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CombinateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -510,8 +522,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Combinate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="150">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CombinateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="4420" column="31" lean-forward="true" selection-start-line="4420" selection-start-column="31" selection-end-line="4420" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Combinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>

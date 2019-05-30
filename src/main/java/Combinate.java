@@ -10,8 +10,8 @@ public class Combinate {
     public static Map<Integer, List<String>> map = new HashMap<>();
 
     static {
-        map.put(0, Collections.emptyList());
-        map.put(1, Collections.emptyList());
+        map.put(0, new ArrayList<>());
+        map.put(1, new ArrayList<>());
         map.put(2, Arrays.asList("a", "b", "c"));
         map.put(3, Arrays.asList("d", "e", "f"));
         map.put(4, Arrays.asList("g", "h", "i"));
@@ -22,21 +22,19 @@ public class Combinate {
         map.put(9, Arrays.asList("w", "x", "y", "z"));
     }
 
-    public static List<String> letterCombinations(String digits) {
-        digits = digits.replace("0", "").replace("1", "");
-        List<String> result = new ArrayList<>();
-        if(digits.length() == 0) {
-            return result;
+    public static List<String> combine(String inputs) {
+        if (inputs.length() == 0) {
+            return Collections.emptyList();
         }
-        if(digits.length() == 1) {
-            return map.get(digits.charAt(0) - '0');
+        if (inputs.length() == 1) {
+            // if only have 1 digit,go back
+            return map.get(Integer.valueOf(inputs));
         }
-        List<String> strings = letterCombinations(digits.substring(1, digits.length()));
-        for(String first : map.get(digits.charAt(0) - '0')) {
-            for(String rest : strings) {
-                result.add(first + rest);
-            }
-        }
-        return result;
+        String next = inputs.substring(1, inputs.length());
+        List<String> letters = combine(next);
+        List<String> list = map.get(inputs.charAt(0) - '0');
+        List<String> returnList = new ArrayList<>();
+        list.forEach(item -> letters.forEach(letter -> returnList.add(item + letter)));
+        return returnList;
     }
 }

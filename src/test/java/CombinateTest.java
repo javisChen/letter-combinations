@@ -13,10 +13,9 @@ public class CombinateTest {
 
     @Test
     public void test() {
-        String digits = "234";
+        String digits = "237";
         int total = calTotal(digits);
-        Combinate.letterCombinations(digits);
-        List<String> result = Combinate.letterCombinations(digits);
+        List<String> result = Combinate.combine(digits);
         System.out.println("total combinations:" + total);
         System.out.println("combinations:" + result.stream().collect(Collectors.joining(" ")));
         Assert.assertEquals(result.size(), total);
